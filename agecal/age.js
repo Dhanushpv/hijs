@@ -21,6 +21,7 @@ let Sub = document.getElementById('sub').onclick = function (){
     age= year - arr[0];
     
     console.log(age);
+    newAge.innerHTML= `Your age is : ${age}`;
 }
 
 

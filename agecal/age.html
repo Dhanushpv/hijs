@@ -8,22 +8,26 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
-    <div class="container mt-5 bg-secondary">
-        <h1 class=" text-center link-light  text-decoration-underline">AGE CALCULATOR</h1>
-        <div class="d-flex  pt-3 fs-1 link-light  justify-content-center aligin-items-center">
+  <body class="bg-dark">
+    <div class="container mt-5 shadow-lg p-3 mb-5 bg-body rounded position-absolute top-50 start-50 translate-middle  w-50">
+        <h1 class=" text-center link-danger   text-decoration-underline pt-5">AGE CALCULATOR</h1>
+        <div class="d-flex  pt-5 fs-1  justify-content-center aligin-items-center">
             Current date :<div id="CurrentDate"></div>
         </div>
-        <div class=" d-flex justify-content-center aligin-items-center">
-        <div id="" class=" pt-3 pb-4 fs-6 link-light  " >
-          <input id="type" class="p-2" type="date">
+        <div class=" d-flex justify-content-center aligin-items-center pt-4 ">
+        <div id="" class=" pt-3 pb-4 fs-6   border-1" >
+          <input id="type" class="p-2 border-1" type="date">
         </div>
         <div class="pt-3 pb-4 fs-4 l p-4 ">
           <input id="sub" type="submit">
           </div>
         </div>
-        <div id="" class="d-flex  pt-3 fs-1 link-light  justify-content-center aligin-items-center">Your Age is :- <div id="newAge"></div></div>
+        <div id="" class="d-flex   fs-1   justify-content-center aligin-items-center"><div id="newAge"></div></div>
     </div>
+
+    <div class="position-absolute top-50 end-0 translate-middle-y"><a href="../color-fliker/colurfliker.html"><button class="link-danger">Colur Fliker</button></a></div>
+
+    <div class="position-absolute top-50 start-0 translate-middle-y"><a href="../toogle/toogle.html"><button class="link-danger">Toogle</button></a></div>
     
     <script src="./age.js"></script>
   </body>
