@@ -71,6 +71,106 @@ let Submit = document.getElementById('submit').onclick = function(){
 
     }
 
+    if (sele1 === "km" && sele2 === "mile"){
+        Num= Num / 1.609
+
+        console.log(Num)
+
+    }else if(sele1 === "mile" && sele2 === "km"){
+        Num= Num * 1.60934
+        console.log(Num)
+
+    }
+
+    if (sele1 === "km" && sele2 === "meter"){
+        Num= Num *1000
+
+        console.log(Num)
+
+    }else if(sele1 === "meter" && sele2 === "km"){
+        Num= Num / 1000
+        console.log(Num)
+
+    }
+
+
+    if (sele1 === "km" && sele2 === "cm"){
+        Num= Num * 100000
+
+        console.log(Num)
+
+    }else if(sele1 === "cm" && sele2 === "km"){
+        Num= Num / 100000
+        console.log(Num)
+
+    }
+
+    if (sele1 === "km" && sele2 === "inch"){
+        Num= Num * 39370.1
+
+        console.log(Num)
+
+    }else if(sele1 === "inch" && sele2 === "km"){
+        Num= Num / 39370.1
+        console.log(Num)
+
+    }
+
+
+    if (sele1 === "mile" && sele2 === "feet"){
+        Num= Num * 5280
+
+        console.log(Num)
+
+    }else if(sele1 === "feet" && sele2 === "mile"){
+        Num= Num / 5280
+        console.log(Num)
+
+    }
+
+    if (sele1 === "mile" && sele2 === "meter"){
+        Num= Num * 1609
+
+        console.log(Num)
+
+    }else if(sele1 === "meter" && sele2 === "mile"){
+        Num= Num / 1609
+        console.log(Num)
+
+    }
+
+    if (sele1 === "mile" && sele2 === "cm"){
+        Num= Num * 160934.4
+
+        console.log(Num)
+
+    }else if(sele1 === "cm" && sele2 === "mile"){
+        Num= Num / 160,934.4
+        console.log(Num)
+
+    }
+
+    if (sele1 === "mile" && sele2 === "inch"){
+        Num= Num * 63360
+
+        console.log(Num)
+
+    }else if(sele1 === "inch" && sele2 === "mile"){
+        Num= Num / 63360
+        console.log(Num)
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
